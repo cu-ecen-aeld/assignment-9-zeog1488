@@ -1,0 +1,20 @@
+
+config BR2_PACKAGE_LDD
+	bool "ldd"
+	help
+	  Includes the scull and misc_modules components in the kernel image.
+	  Used to understand buildroot external trees and package builds.
+
+config BR2_CCACHE
+	bool "Enable compiler cache"
+	help
+	  This option will enable the use of ccache, a compiler cache.
+	  It will cache the result of previous builds to speed up future
+	  builds. By default, the cache is stored in
+	  $HOME/.buildroot-ccache.
+
+	  Note that Buildroot does not try to invalidate the cache
+	  contents when the compiler changes in an incompatible way.
+	  Therefore, if you make a change to the compiler version and/or
+	  configuration, you are responsible for purging the ccache
+	  cache by removing the $HOME/.buildroot-ccache directory.
