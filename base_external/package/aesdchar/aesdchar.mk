@@ -4,7 +4,7 @@
 #
 ##############################################################
 
-AESDCHAR_VERSION = ff41d2c6cca2821432ece778e798d3bbce3fa938
+AESDCHAR_VERSION = ddc77c241bd07d64d14424624c2375224e3efe5f
 
 AESDCHAR_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-zeog1488.git
 AESDCHAR_SITE_METHOD = git
